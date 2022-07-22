@@ -1,0 +1,27 @@
+/*selector{
+    propiedad: valor;
+}*/
+
+*/* {
+    color: rgb(255, 0, 0);
+}*/
+
+h1 {
+    color: rgb(255, 0, 0);
+}
+
+/* selector class --> .clase1 {
+    color: rgb(255, 0, 0);
+}*/
+
+/* selector id --> #element {
+    color: rgb(255, 0, 0);
+}*/
+
+/* selector atributo --> [Atributo_aqui ex. SoyElAtribuyo="loquesea"] {
+    color: rgb(255, 0, 0);
+}*/
+
+/* selector descendiente --> h2 p {
+    color: rgb(255, 0, 0);
+}*/
