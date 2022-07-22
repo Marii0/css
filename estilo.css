@@ -1,27 +1,89 @@
-/*selector{
+/*
+selector{
     propiedad: valor;
-}*/
+}
+*/
 
-*/* {
+/*
+* {
     color: rgb(255, 0, 0);
-}*/
+}
+*/
 
+/*
 h1 {
     color: rgb(255, 0, 0);
 }
+*/
 
-/* selector class --> .clase1 {
+/* selector class --> 
+.clase1 {
     color: rgb(255, 0, 0);
-}*/
+}
+*/
 
-/* selector id --> #element {
+/* selector id --> 
+#element {
     color: rgb(255, 0, 0);
-}*/
+}
+*/
 
-/* selector atributo --> [Atributo_aqui ex. SoyElAtribuyo="loquesea"] {
+/* selector atributo --> 
+[Atributo_aqui ex. SoyElAtribuyo="loquesea"] {
     color: rgb(255, 0, 0);
-}*/
+}
+*/
 
-/* selector descendiente --> h2 p {
+/* selector descendiente --> 
+h2 p {
     color: rgb(255, 0, 0);
-}*/
+}
+*/
+
+/* selectro pseudo-clases 
+h1:hover {
+    color: rgb(255, 0, 0);
+}
+------------------------------------------------------------------------------------------------------*/
+/*metodologia bem y unidades 
+
+.Primera-Division {
+    font-size: 10px; //cambie el em a 10px
+}
+.Primera-Division__h1 {
+    font-size: 5em;
+}
+
+//Un em son 16 px aprox. normalmente, es una medida relativa y sirve para que se vea bien en los celulares
+----------------------------------------------------------------------------------------------------------*/
+/*FONDO 
+
+* {
+    padding: 0px; 
+    margin: 0px;
+}
+.Primera-Division {
+    font-size: 25px;
+    background-color: black;
+    width: 50vw;
+    height: 50vh;
+}
+--------------------------------------------------------------------------------------------------------*/
+/*FONT
+
+* {
+    padding: 0px; 
+    margin: 0px;
+}
+
+.Primera-Division {
+    font-size: 10px; 
+}
+.Primera-Division__h1 {
+    font-size: 5em;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: 200;
+    line-height: 2;
+    color: blue;
+}
+-----------------------------------------------------------------------------------------------------------*/
