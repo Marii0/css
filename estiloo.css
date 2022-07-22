@@ -1,0 +1,16 @@
+* {
+    padding: 0px; 
+    margin: 0px;
+}
+
+.Primera-Division {
+    font-size: 10px; 
+}
+.Primera-Division__h1 {
+    font-size: 2em;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: 200;
+    line-height: 2;
+    color: blue;
+    display: inline;
+}

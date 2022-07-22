@@ -87,3 +87,11 @@ h1:hover {
     color: blue;
 }
 -----------------------------------------------------------------------------------------------------------*/
+
+/*modificacion de bloques y inline
+
+.Primera-Division__h1 {
+    display: inline; // no se puede modificar el tamaño
+    display: block; // Para modificar el tamaño solo se pone width o height = 400px; ejemplo
+}
+-----------------------------------------------------------------------------------------------------------*/
