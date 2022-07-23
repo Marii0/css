@@ -4,6 +4,7 @@
    ========================================================================== */
 
 * {
+  /*box-sizing: content-box; //se acomoda dependiendo el contenido y el border-box dependiendo al height y width*/
   box-sizing: border-box;
   padding: 0;
   margin: 0;

@@ -93,5 +93,32 @@ h1:hover {
 .Primera-Division__h1 {
     display: inline; // no se puede modificar el tamaño
     display: block; // Para modificar el tamaño solo se pone width o height = 400px; ejemplo
+    display: inline_block;
+    background-color: rgb(0, 255, 229); 
 }
 -----------------------------------------------------------------------------------------------------------*/
+
+/*modificacion de padding // el padding separa el texto de las caja
+*{
+    padding: 0px; // otorga 0 pixeles a todos los lados
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding: 0px 0px 0px 0px; // top right bottom left
+}
+
+//centrar un texto es: text-aling: center; 
+----------------------------------------------------------------------------------------------------------*/
+
+/*modificacion de margin // el margin separa las cajas de otras cajas
+*{
+    margin: 10px;
+    margin: 0px 0px 0px 0px; //funciona igual que el padding jaja
+    border-radius: 10px;
+    border-radius: 50%; //para redondearlo todo
+    border: 4px solid rgb(242, 255, 0); dashed,doble,groove,inset,outset,ridge,etc.
+}
+
+//centrar un texto es: text-aling: center; 
+----------------------------------------------------------------------------------------------------------*/
