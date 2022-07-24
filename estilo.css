@@ -114,12 +114,13 @@ h1:hover {
 /*modificacion de margin // el margin separa las cajas de otras cajas
 *{
     margin: 10px;
-    margin: 0px 0px 0px 0px; //funciona igual que el padding jaja
+    margin: 0px 0px 0px 0px; //funciona igual que el padding jaja o -> margin: 0px auto;
     border-radius: 10px;
     border-radius: 50%; //para redondearlo todo
     border: 4px solid rgb(242, 255, 0); dashed,doble,groove,inset,outset,ridge,etc.
     box-shadow: 0px 0px //los dos primero lo mueven 0px 0px //transparencia y tamaño "color";
     text-shadow: 0px 0px //los dos primero lo mueven 0px //transparencia "color"//para duplicar intensidad es coma y poner los mismos valores, 0px 0px 0px "color";
+    transform: rotate(-45deg); //rota la caja 
 }
 
 //centrar un texto es: text-aling: center; 
@@ -134,3 +135,71 @@ border -- border
 margin -- margin
 
 ----------------------------------------------------------------------------------------------------------*/
+/*outline //no ocupa espacio, no afecta a otras cajas como border
+
+.caja1, .caja2{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    margin: auto;
+    outline: 10px solid  blue;
+}
+----------------------------------------------------------------------------------------------------------*/
+
+/*position //modifica las propiedades de las cajas
+
+.caja1{
+    position: static; 
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.caja1{
+    position: relative; te deja mover la caja conservando el espacio inical aunque no se vea
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.caja1{
+    position: absolute; te deja mover la caja eliminando el espacio inical, se autoajusta al contenido, se movera tomando de referencia el viewport, puede tomar como punto de refencia a su padre si el contendor esta posicionado (colocarlo en relative)
+    opacity: 0-1; ex. 0.5
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    -------------
+    top: 0px; sirve para centrar la caja
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.caja1{
+    position: fixed; //es como absolute pero se fija en el viewport, se usa en los menus
+    
+}
+
+.caja1{
+    position: sticki; //es como un fixed pero se fija en el viewport cuando llegamos a un punto especifico de la pag
+    
+}
+----------------------------------------------------------------------------------------------------------*/
+/*z-index //posiciona las cajas a traves de las cajas, entre mayor numero la caja esta en una capa mayor(mas arriba)
+
+.caja1{
+    psition: relative;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    z-index: 1;
+    z-index: -1; /cuando hay un padre un hijo, al hijo se le pone -1 y al padre nada, es mejor no usarlo
+}
+----------------------------------------------------------------------------------------------------------*/
+
+propiedad display
