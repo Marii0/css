@@ -202,4 +202,49 @@ margin -- margin
 }
 ----------------------------------------------------------------------------------------------------------*/
 
-propiedad display
+/*propiedad display
+
+block 
+inline //textos
+
+inline-block //booques que queremos poner en linea
+table ---
+inline-table---
+list-term ---
+table-cell ---
+table-row---
+table-column --- ya no se usan mucho
+
+grid 
+flex 
+
+inline-flex 
+inline-grid
+
+-------------------------------------------------------------------------------*/
+
+/*overflow //contenido que tienes que scrollear para verlo
+
+visble //propiedad por defecto
+auto// escrollear adentro de la caja
+scroll //pone la barra scroll aunque no sea necesario
+overflow-y: hidden //oculta la barra
+overflow-x
+
+------------------------------------------------------------------------------*/
+
+/*float // sirve para hacer un efecto de texto se acomoda al rededor de una imagen en cajas separadas
+
+--------------------------------------------------------------------------------*/
+
+/*pseudo-elementos
+
+::first-line | block
+::first-letter | block
+::placeholder
+::after | hijos - content(necesario) - inline
+::before | hijos - content(necesario) - inline
+::selection
+
+--------------------------------------------------------------------------------*/
+
