@@ -248,3 +248,216 @@ overflow-x
 
 --------------------------------------------------------------------------------*/
 
+/*pseudo-clases
+
+:hover
+:link
+:visited
+:active
+:focus
+:lang
+
+--------------------------------------------------------------------------------*/
+
+/*object-fit //imagenes
+
+fill
+container
+cover
+none
+scale-down
+
+--------------------------------------------------------------------------------*/
+
+/*cursor
+
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_cursor
+
+--------------------------------------------------------------------------------*/
+
+/*colorizacion
+
+color name
+hexadecimal*mejor
+rgb*mejor
+rgba
+hsl
+hsla
+
+--------------------------------------------------------------------------------*/
+
+/*responsive design -mobile first
+
+@media only screen and (max-width: 800 px){
+    div{
+        display:block;
+        width:100%;
+    }
+
+--------------------------------------------------------------------------------*/
+
+
+/*flex-box //las cajas flexibles son las cajas hijas
+
+contenedor y contenido
+flex container-flex item
+main axis (main-start - main-end)
+cross axis (cross-start - cross-end)
+
+propiedades
+
+flex-direction //column column-reverse row row-reverse
+flex-wrap: no-wrap - wrap -wrap-reverse;
+flex-flow: flex-direction flex-wrap; //abrevia las dos lineas de codigo de arriba
+justify-content: center,space-arraound,space-between,space-evenly (main axis)
+align-items: flex-start,center,flex-end,stretch,baseline (across axis)
+
+align-content
+
+--------------------------------------------------------------------------------*/
+
+/*--propiedades de los items--
+(para + de una linea)
+
+align-self (cross axis)
+
+--funcionamiento del margin--
+margin-(direction): auto -> margin = contenedor - tamaño de la caja en el eje en el que corre (direction)
+----
+
+flex-grow: (espacio asignado + sobrante / grows)(main axis)
+flex-shrink: espacio que "cede" (main axis)flex-basis: medicion antes de encogerse (en auto(defect value), agarra el width, y sino tiene mas prioridad)(main axis)
+flex: flex-grow, flex-shrink, flex-basis (al menos el primer parametro obligatorio)
+order: (como el z index, pero en el eje en el que apunta el main axis)
+
+
+--------------------------------------------------------------------------------*/
+
+/*grid
+
+--conceptos basicos--
+
+_grid
+_grid container
+_grid item
+_grid cell
+_grid tracks (column y row)
+_grid area
+_grid line (column line y row line)
+
+--propiedades--
+
+grid-template-rows (grid-container)
+grid-template-columns (grid-container)
+
+grid-row-gap (grid-container)
+grid-column-gap (grid-container)
+grid-gap: row column (grid-container)
+
+grid-row-start (grid-item) //no recomendable
+grid-row-end (grid-item) //no recomendable
+grid-column-start (grid-item) //no recomendable
+grid-column-start (grid-item) //no recomendable
+grid-row (grid-item) //es mejor
+grid-column (grid-item) //es mejor, se pone  1/ span 3 (desde la fila 1 y me ocupas 3 lineas mas) o 1 / 3 (desde la fila 1 a la 3)
+
+unidades "auto" y fr
+repeat(cantidad,tamaño/s)
+
+.grid-item:nth-child(number*){
+}
+--------------------------------------------------------------------------------*/
+
+/*----------grid implicito y explicito----------
+
+3 nuevas propiedades del grid implicito
+grid-auto-rows (igual que el template)
+grid-auto-columns (igual que el template)
+grid-auto-flow: row(default), column y dense
+
+--------------------------------------------------------------------------------*/
+
+/*----------grid dinamico----------
+
+minmax()
+maincontent
+max-content
+
+cantidad:
+
+auto-fill
+auto-fit
+
+--------------------------------------------------------------------------------*/
+
+/*----------alineacion y control de flujo----------
+
+diferencia de flex: 
+
+_la alineacion es dentro de cada celda y no alineacion total del flex container
+_cada celda seria un "flex container"
+
+(propiedades del grid-container)
+
+justify-items (horizontalmente)
+align-items (verticalmente)
+
+strech(default) - start - center - end
+palce-items: align-items justify-items
+
+--------------------------------------------------------------------------------*/
+
+/*----------alineacion de filas y columnas----------
+
+_justify-content (horizontalmente)
+align-content (verticalmente)
+
+_strech(default) - start - center - end
+mas las filas de flex: 
+*space-around
+*space-between
+*space-evenly
+
+--------------------------------------------------------------------------------*/
+
+/*----------aplicado al grid item----------
+
+_justify-self
+_align-self
+_place-self: align-self justify-self
+
+strch(default) - start - center - end
+
+_order (igual que en flex)
+
+--------------------------------------------------------------------------------*/
+
+/*----------areas en el grid----------
+
+_al grid container_
+grid-tempalte-areas: "nombre/s de area/s"
+
+_al grid item_
+grdi-area: "nombre del area"
+
+--------------------------------------------------------------------------------*/
+
+/*----------nombres a las lineas----------
+
+[line-name]
+
+se puede reemplazar en : grid-row | grid-column
+
+--------------------------------------------------------------------------------*/
+
+/*----------shorthand----------
+
+_grid-template: row / columns (grid-container)
+_grid-template: area unidad
+
+--------------------------------------------------------------------------------*/
+
+/*---------responsive design----------
+
+
+
