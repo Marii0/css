@@ -459,5 +459,102 @@ _grid-template: area unidad
 
 /*---------responsive design----------
 
+Estructuras flexibles (contenedores, imagenes y video flexibles)
+media queries
 
+@media se usa en consultas de medios para aplicar diferentes estilos para diferentes tipos / dispositivos de medios.
+
+_ancho y alto de la ventana grafica
+_ancho y alto del dispositivo
+_orientacion (¿la tableta / telefono esta en modo horizontal o vertical?)
+_resolucion
+
+all
+    apto para todos los dispositivos
+print
+    destinado a material impreso y visualizacion de documentos en una pantalla en el modo de vista previa de impresion
+screen 
+    destinado principalmente a las pantallas
+speech
+    destinado a sintetizadores de voz
+
+operadores AND | OR
+
+orientacion: landscape y portrait
+
+--------------------------------------------------------------------------------*/
+
+/*---------transition----------
+
+transition-property: property/ies - all - none
+transition-duration: duration/s
+transition-delay: delay/s
+transition-timing-function: lienar | ease | ease-in | ease-out | ease-in-out | step-start | step-end | steps(int,start|end) | initial | inherit
+transition: 
+
+--------------------------------------------------------------------------------*/
+
+/*---------animaciones----------
+
+@keyframes
+animation-name: name 
+animation-duration: duration
+animation-delay: delay
+animation-timing-function: (transition values)
+animation-iteration-count: number
+animation-fill-mode: none | forwards | backwards | both | initial | inherit
+animation-direction: normal | reverse | alternative | alternate-reverse
+
+--------------------------------------------------------------------------------*/
+
+/*---------transform----------
+
+--------------------------------------------------------------------------------*/
+
+/*---------background----------
+
+background-size
+background-origin - origen de la foto (valores de arriba)
+background-image: url()
+background-color: color
+background-size: x, y, auto, cover, contain
+background-clip: border-box | padding-box | content-box
+background-position: left - top - bottom - right - center ++ left - top - bottom - right - center
+background-attachment: scroll - fixed - inherit
+
+--------------------------------------------------------------------------------*/
+
+/*---------variables en css----------
+
+--varname
+var()
+
+--------------------------------------------------------------------------------*/
+
+/*---------filter----------
+
+none
+blur(px)
+brightness(0-1)
+contrast(number or %)
+drop-shadow(medias)
+grayscale(%)
+hue-rotate(deg)
+invert(%)
+opacity(%)
+saturate(%)
+sepia(%)
+url("filters.svg#filter-id");
+
+--------------------------------------------------------------------------------*/
+
+/*---------otras propiedades, funciones y selectores curiosos de css----------
+
+direction: ltr | rtl | initial | inherit
+letter spacing:
+scroll-behavior
+user-selected
+text-shadow
+
+--attr()---
 
